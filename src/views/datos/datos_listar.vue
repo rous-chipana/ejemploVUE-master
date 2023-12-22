@@ -98,6 +98,14 @@ export default defineComponent({
                         numero_de_apercibimiento: doc.data().numero_de_apercibimiento,
                         numero_de_partes: doc.data().numero_de_partes,
                         enfermedades_significativas_y_alergias: doc.data().enfermedades_significativas_y_alergias,
+                        nombre_del_padre: doc.data().nombre_del_padre,
+                        nombre_de_la_madre: doc.data().nombre_de_la_madre,
+                        profesion: doc.data().profesion,
+                        edad: doc.data().edad,
+                        profesion: doc.data().profesion,
+                        edad: doc.data().edad,
+                        telefonos: doc.data().telefonos,
+                        telefonos: doc.data().telefonos,
                         id: doc.id,
                         // ...doc.data()
                     });
