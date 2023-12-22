@@ -19,6 +19,14 @@
                                 <th scope="col">numero_de_apercibimiento</th>
                                 <th scope="col">numero_de_parte</th>
                                 <th scope="col">enfermedades_significativas_y_alergias</th>
+                                <th scope="col">nombre_del_padre</th>
+                                <th scope="col">nombre_de_la_madre</th>
+                                <th scope="col">profesion</th>
+                                <th scope="col">edad</th>
+                                <th scope="col">profesion</th>
+                                <th scope="col">edad</th>
+                                <th scope="col">telefonos</th>
+                                <th scope="col">telefonos</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -33,6 +41,14 @@
                                 <td>{{ data.numero_de_apercibimiento }}</td>
                                 <td>{{ data.numero_de_parte }}</td>
                                 <td>{{ data.enfermedades_significativas_y_alergias }}</td>
+                                <td>{{ data.nombre_del_padre }}</td>
+                                <td>{{ data.nombre_de_la_madre }}</td>
+                                <td>{{ data.profesion }}</td>
+                                <td>{{ data.edad }}</td>
+                                <td>{{ data.profesion }}</td>
+                                <td>{{ data.edad }}</td>
+                                <td>{{ data.telefonos }}</td>
+                                <td>{{ data.telefonos }}</td>
                                 <td>
                                     <RouterLink class="btn btn-success" :to="'/datos_editar/' + data.id">Editar</RouterLink>
                                     <button class="btn btn-danger" @click="eliminar(data.id)">Eliminar

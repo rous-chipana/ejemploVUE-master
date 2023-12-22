@@ -61,6 +61,60 @@
                         <label class="form-label">enfermedades significativas y alergias:</label>
                         <input v-model="datos.enfermedades_significativas_y_alergias" type="email" class="form-control">
                     </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <label class="form-label">nombre del padre:</label>
+                                <input v-model="datos.nombre_del_padre" type="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <label class="form-label">nombre de la madre:</label>
+                                <input v-model="datos.nombre_de_la_madre" type="email" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <label class="form-label">profesion:</label>
+                                <input v-model="datos.profesion" type="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <label class="form-label">edad:</label>
+                                <input v-model="datos.edad" type="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <label class="form-label">profesion:</label>
+                                <input v-model="datos.profesion" type="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <label class="form-label">edad:</label>
+                                <input v-model="datos.edad" type="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <label class="form-label">telefonos:</label>
+                                <input v-model="datos.telefonos" type="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <label class="form-label">telefonos:</label>
+                                <input v-model="datos.telefonos" type="email" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -89,8 +143,16 @@ export default defineComponent({
                 cursos_que_ha_repetido: '',
                 asignaturas_pendientes: '',
                 numero_de_apercibimiento: '',
-                numero_de_partes: '',
-                enfermedades_significativas_y_alergias: ''
+                numero_de_partes:'',
+                enfermedades_significativas_y_alergias:'',
+                nombre_del_padre:'',
+                nombre_de_la_madre:'',
+                profesion:'',
+                edad:'',
+                profesion:'',
+                edad:'',
+                telefonos:'',
+                telefonos:''
             },
         }
     },
